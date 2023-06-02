@@ -47,22 +47,34 @@ plt.show()
 
 #Ejercicio 1 parte d
 medianaCien =  statistics.median(cien)
+print("Mediana de cien:", medianaCien)
 medianaMil= statistics.median(mil)
+print("Mediana de mil:", medianaMil)
 medianaDiezmil = statistics.median(diezmil)
+print("Mediana de diezmil:", medianaDiezmil)
 medianaCienmil = statistics.median(cienmil)
+print("Mediana de cienmil:", medianaCienmil)
 
 modaCien = statistics.mode(cien)
+print("Moda de cien:", modaCien)
 modaMil = statistics.mode(mil)
+print("Moda de mil:", modaMil)
 modaDiezmil = statistics.mode(diezmil)
+print("Moda de diezmil:", modaDiezmil)
 modaCienmil = statistics.mode(cienmil)
+print("Moda de cienmil:", modaCienmil)
 
 
 #Ejercicio 1 parte e
 # falta comparacion con emperanza teorica
 mediaCien = statistics.mean(cien)
+print("Media de cien:", mediaCien)
 mediaMil = statistics.mean(mil)
+print("Media de mil:", mediaMil)
 mediaDiezmil = statistics.mean(diezmil)
+print("Media de diezmil:", mediaDiezmil)
 mediaCienmil = statistics.mean(cienmil)
+print("Media de cienmil:", mediaCienmil)
 
 #Parte f
 var_empirical = np.var(cien, ddof=1)

@@ -47,21 +47,33 @@ plt.show()
 
 #Ejercicio 1 parte d
 medianaCien =  statistics.median(cienGeom)
+print("Mediana de cien:", medianaCien)
 medianaMil= statistics.median(milGeom)
+print("Mediana de mil:", medianaMil)
 medianaDiezmil = statistics.median(diezMilGeom)
+print("Mediana de diezmil:", medianaDiezmil)
 medianaCienmil = statistics.median(cienMilGeom)
+print("Mediana de cienmil:", medianaCienmil)
 
 modaCien = statistics.mode(cienGeom)
+print("Moda de cien:", modaCien)
 modaMil = statistics.mode(milGeom)
+print("Moda de mil:", modaMil)
 modaDiezmil = statistics.mode(diezMilGeom)
+print("Moda de diezmil:", modaDiezmil)
 modaCienmil = statistics.mode(cienMilGeom)
+print("Moda de cienmil:", modaCienmil)
 
 #Ejercicio 1 parte e
 # falta comparacion con emperanza teorica
 mediaCien = statistics.mean(cienGeom)
+print("Media de cien:", mediaCien)
 mediaMil = statistics.mean(milGeom)
+print("Media de mil:", mediaMil)
 mediaDiezmil = statistics.mean(diezMilGeom)
+print("Media de diezmil:", mediaDiezmil)
 mediaCienmil = statistics.mean(cienMilGeom)
+print("Media de cienmil:", mediaCienmil)
 
 
 #Parte f

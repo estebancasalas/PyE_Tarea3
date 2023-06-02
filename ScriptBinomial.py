@@ -13,22 +13,37 @@ cienmil = binom.rvs(100, 0.35, size =100000) # Devuelve un listado del numero de
 
 #EJercicio 1 parte b
 sns.boxplot(cien)
+plt.ylabel('Numero de exitos') # Etiqueta el eje y.
+plt.show()
 sns.boxplot(mil)
+plt.ylabel('Numero de exitos') # Etiqueta el eje y.
+plt.show()
 sns.boxplot(diezmil)
+plt.ylabel('Numero de exitos') # Etiqueta el eje y.
+plt.show()
 sns.boxplot(cienmil)
+plt.ylabel('Numero de exitos') # Etiqueta el eje y.
 plt.show()
 
 #ejercicio 1 parte c
 plt.hist(cien, color="blue")
+plt.xlabel('Numero de exitos') # Etiqueta el eje x.
+plt.ylabel('Frecuencia') # Etiqueta el eje y.
 plt.show()
 
 plt.hist(mil, color="red")
+plt.xlabel('Numero de exitos') # Etiqueta el eje x.
+plt.ylabel('Frecuencia') # Etiqueta el eje y.
 plt.show()
 
 plt.hist(diezmil, color="yellow")
+plt.xlabel('Numero de exitos') # Etiqueta el eje x.
+plt.ylabel('Frecuencia') # Etiqueta el eje y.
 plt.show()
 
 plt.hist(cienmil, color="pink")
+plt.xlabel('Numero de exitos') # Etiqueta el eje x.
+plt.ylabel('Frecuencia') # Etiqueta el eje y.
 plt.show()
 
 

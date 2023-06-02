@@ -5,10 +5,10 @@ import statistics
 import seaborn as sns
 
 
-cienGeom= geom.rvs(100,0.35,size = 100)
-milGeom = geom.rvs(1000, 0.35, size= 1000)
-diezMilGeom = geom.rvs(10000,0.35, size= 10000)
-cienMilGeom = geom.rvs(100000, 0.35, size=100000)
+cienGeom= geom.rvs(0.08,size= 100)
+milGeom = geom.rvs( 0.08, size= 1000)
+diezMilGeom = geom.rvs(0.08, size= 10000)
+cienMilGeom = geom.rvs( 0.08, size=100000)
 
 #EJercicio 1 parte b
 sns.boxplot(cienGeom)
@@ -73,6 +73,7 @@ print("Varianza empírica:", var_empirical)
 
 var_theoretical = np.var(cienMilGeom)
 print("Varianza teórica:", var_theoretical)
+
 
 x = np.arange(0, 100) # Devuelve un listado de numeros enteros desde 0 hasta 4.
 plt.bar(x, cienGeom, color = 'blue') # Grafica un histograma de barras con los valores de cien.

@@ -5,10 +5,10 @@ from scipy.stats import poisson
 import statistics
 import seaborn as sns
 
-cien = poisson.rvs(35, size =100) # Devuelve un listado del numero de exitos en 100 intentos con una probabilidad de 0.35 con distribucion binomial.
-mil = poisson.rvs(35, size =1000) # Devuelve un listado del numero de exitos en 1000 intentos con una probabilidad de 0.35.
-diezmil = poisson.rvs(35, size =10000) # Devuelve un listado del numero de exitos en 10000 intentos con una probabilidad de 0.35.
-cienmil = poisson.rvs(35, size =100000) # Devuelve un listado del numero de exitos en 100000 intentos con una probabilidad de 0.35.
+cien = poisson.rvs(30, size =100) # Devuelve un listado del numero de exitos en 100 intentos con una probabilidad de 0.35 con distribucion binomial.
+mil = poisson.rvs(30, size =1000) # Devuelve un listado del numero de exitos en 1000 intentos con una probabilidad de 0.35.
+diezmil = poisson.rvs(30, size =10000) # Devuelve un listado del numero de exitos en 10000 intentos con una probabilidad de 0.35.
+cienmil = poisson.rvs(30, size =100000) # Devuelve un listado del numero de exitos en 100000 intentos con una probabilidad de 0.35.
 
 #Ejercicio 1 parte b
 sns.boxplot(cien)

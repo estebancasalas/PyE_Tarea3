@@ -5,6 +5,7 @@ import statistics
 import seaborn as sns
 
 #Muestra 100
+print("Muestra 100: \n ------------------------------------------")
 cienGeom= geom.rvs(0.08,size= 100)
 
 #parte b
@@ -35,8 +36,11 @@ print("Varianza empírica:", var_empirical)
 
 var_theoretical = np.var(cienGeom)
 print("Varianza teórica:", var_theoretical)
+
+print("\n")
 #--------------------------------------------------------------------
 #Muestra 1000
+print("Muestra 1000: \n ------------------------------------------")
 milGeom = geom.rvs( 0.08, size= 1000)
 
 #parte b 
@@ -66,9 +70,12 @@ print("Varianza empírica:", var_empirical)
 
 var_theoretical = np.var(milGeom)
 print("Varianza teórica:", var_theoretical)
+
+print("\n")
 #--------------------------------------------------------------------
 
 #Muestra 10000
+print("Muestra 10.000: \n ------------------------------------------")
 diezMilGeom = geom.rvs(0.08, size= 10000)
 
 #parte b
@@ -99,8 +106,11 @@ print("Varianza empírica:", var_empirical)
 
 var_theoretical = np.var(diezMilGeom)
 print("Varianza teórica:", var_theoretical)
+
+print("\n")
 #--------------------------------------------------------------------
 #Muestra 100000
+print("Muestra 100.000: \n ------------------------------------------")
 cienMilGeom = geom.rvs( 0.08, size=100000)
 
 #parte b 

@@ -7,6 +7,7 @@ import seaborn as sns
 
 
 #Muestra 100
+print("Muestra 100: \n ------------------------------------------")
 cien = poisson.rvs(30, size =100) # Devuelve un listado del numero de exitos en 100 intentos con una probabilidad de 0.35 con distribucion binomial.
 
 #Ejercicio 1 parte b
@@ -39,8 +40,9 @@ print("Varianza empírica:", var_empirical)
 var_theoretical = np.var(cien)
 print("Varianza teórica:", var_theoretical)
 
-
+print("\n")
 #Muestra 1000
+print("Muestra 1000: \n ------------------------------------------")
 mil = poisson.rvs(30, size =1000) # Devuelve un listado del numero de exitos en 1000 intentos con una probabilidad de 0.35.
 
 #Ejercicio 1 parte b
@@ -73,8 +75,9 @@ print("Varianza empírica:", var_empirical)
 var_theoretical = np.var(mil)
 print("Varianza teórica:", var_theoretical)
 
-
+print("\n")
 #Muestra 10000
+print("Muestra 10.000: \n ------------------------------------------")
 diezmil = poisson.rvs(30, size =10000) # Devuelve un listado del numero de exitos en 10000 intentos con una probabilidad de 0.35.
 
 #Ejercicio 1 parte b
@@ -109,8 +112,9 @@ print("Varianza empírica:", var_empirical)
 var_theoretical = np.var(diezmil)
 print("Varianza teórica:", var_theoretical)
 
-
+print("\n")
 #Muestra 100000
+print("Muestra 100.000: \n ------------------------------------------")
 cienmil = poisson.rvs(30, size =100000) # Devuelve un listado del numero de exitos en 100000 intentos con una probabilidad de 0.35.
 
 #Ejercicio 1 parte b
